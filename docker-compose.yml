@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  aingbot_bot:
+    image: aingbot
+    container_name: aingbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/app
