@@ -46,8 +46,6 @@ async def on_message(message):
             author = str(message.author)
             author = author[:-5]
 
-        elif author == '독재자 임준상' or author == '서서현' or author == '일진 폭력배 멍청이  민예은' or author =='평평한 재능충 엘사 강상민':
-            None
         else:
             None
         #print(author + ': ' + msg)
